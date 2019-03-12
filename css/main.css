@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-image: url("../images/pokemon_pikachu.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+#bigger {
+    margin-left: 22%;
+}
+
+h1 {
+    text-shadow: 5px 0 0 blue;
+    color: yellow;
+    font-size: 4em;
+    font-family: 'Chewy', cursive;
+}
+
+#box-bg {
+    width: 800px;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    background-image: url("../images/pokemon.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#box-sm, #box-sm2, #box-sm3, #box-sm4 {
+    width: 50px;
+    height: 50px;
+    background-color: burlywood;
+    position: absolute;
+    background-image: url("../images/Master_pokeball.png");
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#box-sm2 {
+    background-image: url("../images/Great_pokeball.png");
+}
+
+#box-sm3 {
+    background-image: url("../images/Ultra_pokeball.png");
+}
+
+#box-sm4 {
+    background-image: url("../images/OG_pokeball.png");
+}
+
+
+ 
+
